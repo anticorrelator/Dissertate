@@ -70,9 +70,11 @@
 
 \renewcommand\bibname{References}
 \renewcommand\listfigurename{Listing of figures}
-\RaggedRight
 
+\RaggedRight
+%\parskip 0.5em
 \parindent 12pt
+
 \RequirePackage{mathspec}
 \setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
 \setmathrm{EB Garamond}
@@ -82,7 +84,7 @@
 
 \defaultfontfeatures{Mapping=tex-text}
 \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{EB Garamond}
-\setromanfont[Numbers=OldStyle, Ligatures={Common}]{EB Garamond}
+\setromanfont[Numbers=OldStyle, Ligatures={Common}, Scale=1.00]{EB Garamond}
 \setsansfont[Scale=MatchLowercase, BoldFont={Lato Bold}]{Lato Regular}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 
